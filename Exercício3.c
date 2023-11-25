@@ -6,6 +6,7 @@
 
 int main()
 {
+    setlocale(LC_ALL, "portuguese");
     int codigo = 0;
     char nomes[999][200];
     char telefones[999][200];
@@ -14,11 +15,11 @@ int main()
 
     do
     {
-        printf("C骴igo 1 para adicionar um n鷐ero \n");
-        printf("C骴igo 2 para mostrar os n鷐eros cadastrados e encerrar o software.\n");
+        printf("C贸digo 1 para adicionar um n煤mero \n");
+        printf("C贸digo 2 para mostrar os n煤meros cadastrados e encerrar o software.\n");
         printf("\n");
 
-        printf("Digite o c骴igo desejado:");
+        printf("Digite o c贸digo desejado:");
         scanf("%d", &codigo);
 
         switch (codigo)
@@ -40,7 +41,7 @@ int main()
             system("cls || clear");
             break;
         default:
-            printf("C骴igo inv醠ido!");
+            printf("C贸digo inv谩lido!");
             break;
         }
 
